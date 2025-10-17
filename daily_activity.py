@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Daily Commit Activity Bot
 Creates meaningful commits throughout the day to maintain activity
@@ -7,6 +8,13 @@ Creates meaningful commits throughout the day to maintain activity
 import random
 from datetime import datetime
 import json
+import sys
+import io
+
+# Force UTF-8 output on Windows
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 def get_commit_message():
     """Generate meaningful commit messages"""
@@ -68,7 +76,7 @@ def update_activity_file():
     
     # Read existing logs
     try:
-        with open('ACTIVITY_LOG.json', 'r') as f:
+        with open('ACTIVITY_LOG.json', 'r', encoding='utf-8') as f:
             logs = json.load(f)
     except:
         logs = []
@@ -79,9 +87,9 @@ def update_activity_file():
     # Keep only last 100 entries
     logs = logs[-100:]
     
-    # Write back
-    with open('ACTIVITY_LOG.json', 'w') as f:
-        json.dump(logs, f, indent=2)
+    # Write back with UTF-8 encoding
+    with open('ACTIVITY_LOG.json', 'w', encoding='utf-8') as f:
+        json.dump(logs, f, indent=2, ensure_ascii=False)
     
     return log_entry
 
@@ -128,7 +136,8 @@ def update_daily_notes():
 *Last updated: {now.strftime('%H:%M:%S UTC')}*
 """
     
-    with open('DAILY_NOTES.md', 'w') as f:
+    # Write with UTF-8 encoding
+    with open('DAILY_NOTES.md', 'w', encoding='utf-8') as f:
         f.write(notes)
 
 if __name__ == "__main__":

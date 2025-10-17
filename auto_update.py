@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Self-Updating Repository Bot
 Fetches random ASCII art, jokes, and fun content from APIs
@@ -8,6 +9,13 @@ import random
 import requests
 from datetime import datetime
 import time
+import sys
+import io
+
+# Force UTF-8 output on Windows
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 def get_programming_joke():
     """Fetch a programming joke from API"""
@@ -35,12 +43,6 @@ def get_programming_joke():
 
 def get_ascii_art():
     """Fetch ASCII art from API"""
-    ascii_options = [
-        ('cat', 'https://catfact.ninja/fact'),
-        ('dog', 'https://dog-api.kinduff.com/api/facts'),
-        ('random', 'https://uselessfacts.jsph.pl/random.json?language=en')
-    ]
-    
     # Simple ASCII art patterns
     arts = [
         """
@@ -215,8 +217,8 @@ if __name__ == "__main__":
     # Generate content
     content = generate_content()
     
-    # Write to README
-    with open('AUTO_UPDATE.md', 'w') as f:
+    # Write to file with UTF-8 encoding
+    with open('AUTO_UPDATE.md', 'w', encoding='utf-8') as f:
         f.write(content)
     
     print("✅ Content generated successfully!")

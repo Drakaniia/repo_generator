@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 GitHub Profile Auto-Updater
 Dynamically updates your profile README with live stats, activities, and content
@@ -8,6 +9,13 @@ import requests
 import random
 from datetime import datetime, timedelta
 import json
+import sys
+import io
+
+# Force UTF-8 output on Windows
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 # Configuration - Set your GitHub username
 GITHUB_USERNAME = "Drakaniia"  # Change this
@@ -21,7 +29,7 @@ def get_programming_joke():
             return data.get('joke', 'Why do programmers prefer dark mode? Less bugs! 🐛')
     except:
         pass
-    return "Keep coding! 💻"
+    return "Debugging is like being the detective in a crime movie where you're also the murderer at the same time."
 
 def get_dev_quote():
     """Fetch a developer quote"""
@@ -46,7 +54,7 @@ def get_github_stats():
                 'following': data.get('following', 0),
                 'created_at': data.get('created_at', ''),
                 'bio': data.get('bio', 'Building cool stuff!'),
-                'location': data.get('location', 'Earth 🌍')
+                'location': data.get('location', 'None')
             }
     except:
         pass
@@ -67,7 +75,7 @@ def get_latest_repos():
                 'stars': repo['stargazers_count'],
                 'language': repo['language'] or 'Unknown',
                 'url': repo['html_url']
-            } for repo in repos]
+            } for repo in repos[:3]]  # Limit to top 3
     except:
         pass
     return []
@@ -130,6 +138,9 @@ def generate_profile_readme():
     activity = generate_activity_graph()
     tech_stack = get_tech_stack()
     
+    bio = stats['bio'] if stats else 'Building cool stuff!'
+    location = stats['location'] if stats else 'None'
+    
     content = f"""# 👋 Hi there, I'm {GITHUB_USERNAME}!
 
 <div align="center">
@@ -142,7 +153,7 @@ def generate_profile_readme():
 
 ## 🚀 About Me
 
-{stats['bio'] if stats else 'Building cool stuff!'} | 📍 {stats['location'] if stats else 'Earth 🌍'}
+{bio} | 📍 {location}
 
 - 🔭 Currently working on making GitHub profiles more dynamic
 - 🌱 Learning new technologies every day
@@ -174,10 +185,15 @@ def generate_profile_readme():
 """
 
     if repos:
-        for repo in repos[:5]:
+        for repo in repos:
+            # Truncate long descriptions
+            desc = repo['description'][:100]
+            if len(repo['description']) > 100:
+                desc += "..."
+            
             content += f"""
 ### [{repo['name']}]({repo['url']})
-> {repo['description'][:100]}...
+> {desc}
 - ⭐ Stars: {repo['stars']} | 🔤 Language: {repo['language']}
 """
     else:
@@ -224,6 +240,7 @@ if __name__ == "__main__":
     
     content = generate_profile_readme()
     
+    # Write with UTF-8 encoding
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(content)
     
