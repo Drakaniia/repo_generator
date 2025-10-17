@@ -37,4 +37,9 @@ jobs:
           COMMIT_MSG=$(python -c "from daily_activity import get_commit_message; print(get_commit_message())")
           
           git diff --quiet && git diff --staged --quiet || git commit -m "$COMMIT_MSG"
-          git push
+          
+          # Pull with rebase to incorporate any remote changes before pushing
+          git pull --rebase origin main || echo "No remote changes to pull"
+          
+          # Push changes, retry once if it fails
+          git push || (git pull --rebase origin main && git push)
