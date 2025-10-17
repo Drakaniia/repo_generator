@@ -10,35 +10,38 @@ from datetime import datetime
 import json
 import sys
 import io
+import os
 
-# Force UTF-8 output on Windows
+# Force UTF-8 encoding for all I/O operations
 if sys.platform == 'win32':
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+    # Set environment variable for subprocess UTF-8
+    os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 def get_commit_message():
     """Generate meaningful commit messages"""
     activities = [
-        "📝 Update documentation",
-        "🐛 Fix minor bug",
-        "✨ Add new feature idea",
-        "🎨 Improve code structure",
-        "⚡ Performance optimization",
-        "🔧 Update configuration",
-        "📦 Update dependencies",
-        "🚀 Deploy new version",
-        "🔒 Security update",
-        "♻️ Refactor code",
-        "🎉 Release new version",
-        "💄 Update UI components",
-        "🌐 Add internationalization",
-        "📱 Improve mobile responsiveness",
-        "🔍 Improve SEO",
-        "🧪 Add tests",
-        "📊 Add analytics",
-        "🔨 Update build scripts",
-        "💚 Fix CI build",
-        "🎯 Improve targeting"
+        "Update documentation",
+        "Fix minor bug",
+        "Add new feature idea",
+        "Improve code structure",
+        "Performance optimization",
+        "Update configuration",
+        "Update dependencies",
+        "Deploy new version",
+        "Security update",
+        "Refactor code",
+        "Release new version",
+        "Update UI components",
+        "Add internationalization",
+        "Improve mobile responsiveness",
+        "Improve SEO",
+        "Add tests",
+        "Add analytics",
+        "Update build scripts",
+        "Fix CI build",
+        "Improve targeting"
     ]
     
     details = [
@@ -54,7 +57,43 @@ def get_commit_message():
         "optimizing workflow"
     ]
     
-    return f"{random.choice(activities)} {random.choice(details)}"
+    # Use simple emoji alternatives that work cross-platform
+    emojis = {
+        "documentation": "📝",
+        "bug": "🐛",
+        "feature": "✨",
+        "structure": "🎨",
+        "performance": "⚡",
+        "config": "🔧",
+        "deps": "📦",
+        "deploy": "🚀",
+        "security": "🔒",
+        "refactor": "♻️",
+        "release": "🎉",
+        "ui": "💄",
+        "i18n": "🌐",
+        "mobile": "📱",
+        "seo": "🔍",
+        "test": "🧪",
+        "analytics": "📊",
+        "build": "🔨",
+        "ci": "💚",
+        "target": "🎯"
+    }
+    
+    activity = random.choice(activities)
+    detail = random.choice(details)
+    
+    # Try to add emoji, fallback to plain text if it fails
+    try:
+        emoji_key = activity.split()[0].lower()
+        for key in emojis:
+            if key in emoji_key:
+                return f"{emojis[key]} {activity} {detail}"
+    except:
+        pass
+    
+    return f"{activity} {detail}"
 
 def create_activity_log():
     """Create an activity log entry"""
@@ -114,23 +153,23 @@ def update_daily_notes():
 
 ## {now.strftime('%A, %B %d, %Y')}
 
-### 💡 Tip of the Day
+### Tip of the Day
 {random.choice(tips)}
 
-### ✅ Today's Progress
+### Today's Progress
 - Automated profile updates
 - Maintained commit streak
 - Improved code quality
 - Learned new techniques
 
-### 🎯 Focus Areas
+### Focus Areas
 - Code optimization
 - Better documentation
 - Test coverage
 - User experience
 
-### 📈 Productivity Score
-**{random.randint(75, 95)}%** - Great work! Keep it up! 🎉
+### Productivity Score
+**{random.randint(75, 95)}%** - Great work! Keep it up!
 
 ---
 *Last updated: {now.strftime('%H:%M:%S UTC')}*
@@ -141,14 +180,18 @@ def update_daily_notes():
         f.write(notes)
 
 if __name__ == "__main__":
-    print("📊 Creating daily activity...")
-    
-    # Update activity log
-    entry = update_activity_file()
-    print(f"✅ Activity logged: {entry['description']}")
-    
-    # Update daily notes
-    update_daily_notes()
-    print("✅ Daily notes updated!")
-    
-    print("\n🎉 All files updated successfully!")
+    try:
+        print("Creating daily activity...")
+        
+        # Update activity log
+        entry = update_activity_file()
+        print(f"Activity logged: {entry['description']}")
+        
+        # Update daily notes
+        update_daily_notes()
+        print("Daily notes updated!")
+        
+        print("\nAll files updated successfully!")
+    except Exception as e:
+        print(f"Error: {e}")
+        sys.exit(1)

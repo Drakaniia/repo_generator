@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Automation Testing & Monitoring Script
 Tests all components and monitors GitHub Actions workflow status
@@ -8,9 +9,16 @@ import os
 import sys
 import json
 import subprocess
-from datetime import datetime, timedelta
+from datetime import datetime
 import requests
 import time
+import io
+
+# Force UTF-8 encoding for all I/O operations
+if sys.platform == 'win32':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+    os.environ['PYTHONIOENCODING'] = 'utf-8'
 
 GITHUB_USERNAME = "Drakaniia"  # Change this to your username
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN', '')  # Optional: for API rate limits
@@ -29,16 +37,16 @@ def print_header(text):
     print(f"{Colors.BOLD}{Colors.BLUE}{'='*60}{Colors.RESET}\n")
 
 def print_success(text):
-    print(f"{Colors.GREEN}✅ {text}{Colors.RESET}")
+    print(f"{Colors.GREEN}[OK] {text}{Colors.RESET}")
 
 def print_error(text):
-    print(f"{Colors.RED}❌ {text}{Colors.RESET}")
+    print(f"{Colors.RED}[FAIL] {text}{Colors.RESET}")
 
 def print_warning(text):
-    print(f"{Colors.YELLOW}⚠️  {text}{Colors.RESET}")
+    print(f"{Colors.YELLOW}[WARN] {text}{Colors.RESET}")
 
 def print_info(text):
-    print(f"{Colors.BLUE}ℹ️  {text}{Colors.RESET}")
+    print(f"{Colors.BLUE}[INFO] {text}{Colors.RESET}")
 
 def get_python_command():
     """Detect the correct Python command"""
@@ -50,7 +58,9 @@ def get_python_command():
                 [cmd, '--version'],
                 capture_output=True,
                 text=True,
-                timeout=5
+                timeout=5,
+                encoding='utf-8',
+                errors='replace'
             )
             if result.returncode == 0:
                 return cmd
@@ -96,12 +106,12 @@ def test_file_updated_recently(filename, hours=24):
 def test_json_valid(filename):
     """Test if JSON file is valid"""
     try:
-        with open(filename, 'r') as f:
+        with open(filename, 'r', encoding='utf-8') as f:
             data = json.load(f)
         print_success(f"{filename} is valid JSON with {len(data)} entries")
         return True
     except Exception as e:
-        print_error(f"{filename} JSON error: {e}")
+        print_error(f"{filename} JSON error: {str(e)[:100]}")
         return False
 
 def test_workflow_file(filename):
@@ -140,26 +150,30 @@ def test_python_script(script_name, python_cmd):
             capture_output=True,
             text=True,
             timeout=30,
-            cwd=os.getcwd()
+            cwd=os.getcwd(),
+            encoding='utf-8',
+            errors='replace',
+            env={**os.environ, 'PYTHONIOENCODING': 'utf-8'}
         )
         
         if result.returncode == 0:
             print_success(f"{script_name} executed successfully")
             if result.stdout:
                 # Show first line of output
-                first_line = result.stdout.split('\n')[0]
-                print(f"  Output: {first_line[:80]}...")
+                first_line = result.stdout.split('\n')[0][:80]
+                print(f"  Output: {first_line}...")
             return True
         else:
             print_error(f"{script_name} failed with code {result.returncode}")
             if result.stderr:
-                print(f"  Error: {result.stderr[:200]}")
+                error_msg = result.stderr[:200].replace('\n', ' ')
+                print(f"  Error: {error_msg}")
             return False
     except subprocess.TimeoutExpired:
         print_error(f"{script_name} timed out (>30s)")
         return False
     except Exception as e:
-        print_error(f"{script_name} error: {e}")
+        print_error(f"{script_name} error: {str(e)[:100]}")
         return False
 
 def test_github_api_connection():
@@ -236,7 +250,9 @@ def check_git_status():
         result = subprocess.run(
             ['git', 'rev-parse', '--is-inside-work-tree'],
             capture_output=True,
-            text=True
+            text=True,
+            encoding='utf-8',
+            errors='replace'
         )
         
         if result.returncode != 0:
@@ -255,14 +271,16 @@ def check_git_status():
         )
         
         if result.returncode == 0:
-            commit_info = result.stdout.replace('ðŸ¤–', '🤖')  # Fix encoding
+            commit_info = result.stdout[:100]
             print_info(f"  Last commit: {commit_info}")
         
         # Check for uncommitted changes
         result = subprocess.run(
             ['git', 'status', '--porcelain'],
             capture_output=True,
-            text=True
+            text=True,
+            encoding='utf-8',
+            errors='replace'
         )
         
         if result.stdout.strip():
@@ -278,7 +296,7 @@ def check_git_status():
         
         return True
     except Exception as e:
-        print_error(f"Git check error: {e}")
+        print_error(f"Git check error: {str(e)[:100]}")
         return False
 
 def get_workflow_runs():
@@ -300,7 +318,7 @@ def get_workflow_runs():
                 print_success(f"Found {len(runs)} recent workflow runs")
                 print("\nRecent runs:")
                 for run in runs[:5]:
-                    status_icon = "✅" if run['conclusion'] == 'success' else "❌" if run['conclusion'] == 'failure' else "⏳"
+                    status_icon = "[OK]" if run['conclusion'] == 'success' else "[FAIL]" if run['conclusion'] == 'failure' else "[RUN]"
                     created = run['created_at'].split('T')[0]
                     print(f"  {status_icon} {run['name']}: {run['status']} ({created})")
                 return True
@@ -326,7 +344,13 @@ def check_dependencies():
     # Check Python
     python_cmd = get_python_command()
     if python_cmd:
-        result = subprocess.run([python_cmd, '--version'], capture_output=True, text=True)
+        result = subprocess.run(
+            [python_cmd, '--version'],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+            errors='replace'
+        )
         version = result.stdout.strip()
         print_success(f"Python found: {version} (command: {python_cmd})")
     else:
@@ -335,7 +359,13 @@ def check_dependencies():
     
     # Check git
     try:
-        result = subprocess.run(['git', '--version'], capture_output=True, text=True)
+        result = subprocess.run(
+            ['git', '--version'],
+            capture_output=True,
+            text=True,
+            encoding='utf-8',
+            errors='replace'
+        )
         if result.returncode == 0:
             print_success(f"Git found: {result.stdout.strip()}")
         else:
@@ -363,7 +393,7 @@ def generate_test_report():
     # Check dependencies first
     deps_ok, python_cmd = check_dependencies()
     if not deps_ok:
-        print_error("\n❌ Dependency check failed. Please install missing dependencies.")
+        print_error("\n[FAIL] Dependency check failed. Please install missing dependencies.")
         return False
     
     results = {
@@ -439,7 +469,6 @@ def generate_test_report():
     # Workflow runs
     print("\nGitHub Actions Status:")
     workflow_check = get_workflow_runs()
-    # Don't fail the test if workflows aren't set up yet
     results['Git Tests'].append(True)  # Always pass this
     
     # Final summary
@@ -463,35 +492,35 @@ def generate_test_report():
     print_header("RECOMMENDATIONS")
     
     if passed_tests == total_tests:
-        print(f"{Colors.GREEN}{Colors.BOLD}🎉 ALL TESTS PASSED!{Colors.RESET}")
+        print(f"{Colors.GREEN}{Colors.BOLD}ALL TESTS PASSED!{Colors.RESET}")
         print_info("Your automation is working perfectly!")
     elif passed_tests / total_tests > 0.8:
-        print(f"{Colors.YELLOW}{Colors.BOLD}⚠️  MOST TESTS PASSED{Colors.RESET}")
+        print(f"{Colors.YELLOW}{Colors.BOLD}MOST TESTS PASSED{Colors.RESET}")
         if not workflow_check:
-            print_info("• Enable GitHub Actions in your repository settings")
-            print_info("• Push changes to trigger the first workflow run")
+            print_info("Enable GitHub Actions in your repository settings")
+            print_info("Push changes to trigger the first workflow run")
     else:
-        print(f"{Colors.RED}{Colors.BOLD}❌ MULTIPLE FAILURES DETECTED{Colors.RESET}")
+        print(f"{Colors.RED}{Colors.BOLD}MULTIPLE FAILURES DETECTED{Colors.RESET}")
     
     # Specific recommendations
     if sum(results['Script Tests']) < len(results['Script Tests']):
-        print_info(f"• Ensure Python dependencies are installed: {python_cmd} -m pip install requests")
+        print_info(f"Ensure Python dependencies are installed: {python_cmd} -m pip install requests")
     
     if not workflow_check:
-        print_info("• Go to GitHub repo → Actions tab → Enable workflows")
-        print_info("• Commit and push these files to trigger actions")
+        print_info("Go to GitHub repo -> Actions tab -> Enable workflows")
+        print_info("Commit and push these files to trigger actions")
     
     print(f"\n{Colors.BLUE}Next Steps:{Colors.RESET}")
     print("  1. Commit and push all files to GitHub")
     print("  2. Go to your repository's Actions tab")
     print("  3. Enable workflows if prompted")
-    print("  4. Run 'Actions → [workflow] → Run workflow' manually")
+    print("  4. Run 'Actions -> [workflow] -> Run workflow' manually")
     print("  5. Wait for scheduled runs or check back in 1 hour")
     
     return passed_tests == total_tests
 
 def continuous_monitor(interval=300):
-    """Continuously monitor the automation (runs every 5 minutes by default)"""
+    """Continuously monitor the automation"""
     print_header("CONTINUOUS MONITORING MODE")
     print_info(f"Checking every {interval} seconds. Press Ctrl+C to stop.\n")
     
@@ -542,4 +571,4 @@ if __name__ == "__main__":
         print(f"  {sys.executable} test_automation.py           - Run full test suite")
         print(f"  {sys.executable} test_automation.py --monitor - Continuous monitoring")
         
-        sys.exit(0 if success else 1)
+        sys.exit(0 if success else 1)   
