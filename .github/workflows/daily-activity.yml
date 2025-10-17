@@ -1,0 +1,40 @@
+name: Daily Commit Activity
+
+on:
+  schedule:
+    - cron: '0 8,12,16,20 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  create-activity:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Create daily activity
+        run: python daily_activity.py
+      
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          
+          # Get a meaningful commit message from Python
+          COMMIT_MSG=$(python -c "from daily_activity import get_commit_message; print(get_commit_message())")
+          
+          git diff --quiet && git diff --staged --quiet || git commit -m "$COMMIT_MSG"
+          git push
