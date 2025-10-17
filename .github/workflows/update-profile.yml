@@ -36,4 +36,9 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add README.md
           git diff --quiet && git diff --staged --quiet || git commit -m "🤖 Auto-update profile - $(date +'%Y-%m-%d %H:%M:%S')"
-          git push
+          
+          # Pull with rebase to incorporate any remote changes before pushing
+          git pull --rebase origin main || echo "No remote changes to pull"
+          
+          # Push changes, retry once if it fails
+          git push || (git pull --rebase origin main && git push)
