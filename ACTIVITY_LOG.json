@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-17T15:00:53.594348",
-    "activity_type": "planning",
-    "description": "Update configuration following best practices",
-    "energy_level": 78,
-    "focus_score": 91
-  },
-  {
     "timestamp": "2025-10-17T15:01:21.514072",
     "activity_type": "review",
     "description": "Add analytics following best practices",
@@ -698,5 +691,12 @@
     "description": "Update UI components improving code quality",
     "energy_level": 99,
     "focus_score": 85
+  },
+  {
+    "timestamp": "2025-11-10T20:20:20.751681",
+    "activity_type": "code",
+    "description": "Improve mobile responsiveness optimizing workflow",
+    "energy_level": 97,
+    "focus_score": 76
   }
 ]
