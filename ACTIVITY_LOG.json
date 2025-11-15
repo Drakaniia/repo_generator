@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-21T08:24:03.583478",
-    "activity_type": "planning",
-    "description": "Update UI components fixing edge cases",
-    "energy_level": 75,
-    "focus_score": 88
-  },
-  {
     "timestamp": "2025-10-21T12:36:35.654720",
     "activity_type": "code",
     "description": "♻️ Refactor code optimizing workflow",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea following best practices",
     "energy_level": 89,
     "focus_score": 70
+  },
+  {
+    "timestamp": "2025-11-15T08:20:09.962778",
+    "activity_type": "documentation",
+    "description": "Add new feature idea optimizing workflow",
+    "energy_level": 96,
+    "focus_score": 75
   }
 ]
