@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-22T08:24:53.830323",
-    "activity_type": "code",
-    "description": "🔒 Security update enhancing performance",
-    "energy_level": 86,
-    "focus_score": 95
-  },
-  {
     "timestamp": "2025-10-22T12:37:00.566568",
     "activity_type": "planning",
     "description": "Fix CI build following best practices",
@@ -697,6 +690,13 @@
     "activity_type": "documentation",
     "description": "Update UI components based on user feedback",
     "energy_level": 78,
+    "focus_score": 97
+  },
+  {
+    "timestamp": "2025-11-16T08:20:46.457335",
+    "activity_type": "planning",
+    "description": "Add tests based on user feedback",
+    "energy_level": 80,
     "focus_score": 97
   }
 ]
