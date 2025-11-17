@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-23T16:21:14.193439",
-    "activity_type": "code",
-    "description": "Add tests fixing edge cases",
-    "energy_level": 65,
-    "focus_score": 94
-  },
-  {
     "timestamp": "2025-10-23T20:18:00.920605",
     "activity_type": "code",
     "description": "Improve targeting following best practices",
@@ -698,5 +691,12 @@
     "description": "Update UI components enhancing performance",
     "energy_level": 92,
     "focus_score": 86
+  },
+  {
+    "timestamp": "2025-11-17T16:23:51.304000",
+    "activity_type": "planning",
+    "description": "⚡ Performance optimization to improve maintainability",
+    "energy_level": 65,
+    "focus_score": 78
   }
 ]
