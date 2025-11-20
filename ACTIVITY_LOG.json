@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-26T20:17:46.383649",
-    "activity_type": "code",
-    "description": "Add internationalization optimizing workflow",
-    "energy_level": 61,
-    "focus_score": 87
-  },
-  {
     "timestamp": "2025-10-27T08:24:11.689208",
     "activity_type": "documentation",
     "description": "Fix minor bug for better user experience",
@@ -698,5 +691,12 @@
     "description": "Fix CI build based on user feedback",
     "energy_level": 84,
     "focus_score": 96
+  },
+  {
+    "timestamp": "2025-11-20T20:20:22.791928",
+    "activity_type": "documentation",
+    "description": "Improve mobile responsiveness for production readiness",
+    "energy_level": 93,
+    "focus_score": 78
   }
 ]
