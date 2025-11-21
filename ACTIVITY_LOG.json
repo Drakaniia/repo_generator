@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-27T12:37:13.515754",
-    "activity_type": "code",
-    "description": "Update documentation optimizing workflow",
-    "energy_level": 72,
-    "focus_score": 87
-  },
-  {
     "timestamp": "2025-10-27T16:22:28.832891",
     "activity_type": "code",
     "description": "Add internationalization to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Add internationalization based on user feedback",
     "energy_level": 96,
     "focus_score": 86
+  },
+  {
+    "timestamp": "2025-11-21T12:35:21.880029",
+    "activity_type": "review",
+    "description": "Add tests for production readiness",
+    "energy_level": 83,
+    "focus_score": 100
   }
 ]
