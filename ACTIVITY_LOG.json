@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-29T12:37:15.624147",
-    "activity_type": "code",
-    "description": "Update UI components for production readiness",
-    "energy_level": 68,
-    "focus_score": 78
-  },
-  {
     "timestamp": "2025-10-29T16:22:57.039437",
     "activity_type": "planning",
     "description": "♻️ Refactor code for production readiness",
@@ -697,6 +690,13 @@
     "activity_type": "documentation",
     "description": "🎉 Release new version for production readiness",
     "energy_level": 87,
+    "focus_score": 95
+  },
+  {
+    "timestamp": "2025-11-23T12:30:59.179324",
+    "activity_type": "planning",
+    "description": "♻️ Refactor code based on user feedback",
+    "energy_level": 91,
     "focus_score": 95
   }
 ]
