@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-30T16:22:04.344476",
-    "activity_type": "review",
-    "description": "Fix CI build following best practices",
-    "energy_level": 60,
-    "focus_score": 95
-  },
-  {
     "timestamp": "2025-10-30T20:18:43.296987",
     "activity_type": "documentation",
     "description": "Improve SEO based on user feedback",
@@ -698,5 +691,12 @@
     "description": "Improve code structure with latest standards",
     "energy_level": 99,
     "focus_score": 77
+  },
+  {
+    "timestamp": "2025-11-24T16:20:26.669182",
+    "activity_type": "documentation",
+    "description": "Improve SEO based on user feedback",
+    "energy_level": 75,
+    "focus_score": 80
   }
 ]
