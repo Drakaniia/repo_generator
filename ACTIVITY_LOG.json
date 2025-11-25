@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-10-31T16:21:18.370524",
-    "activity_type": "code",
-    "description": "Add new feature idea improving code quality",
-    "energy_level": 66,
-    "focus_score": 98
-  },
-  {
     "timestamp": "2025-10-31T20:19:10.389434",
     "activity_type": "review",
     "description": "Add internationalization improving code quality",
@@ -698,5 +691,12 @@
     "description": "♻️ Refactor code following best practices",
     "energy_level": 76,
     "focus_score": 74
+  },
+  {
+    "timestamp": "2025-11-25T16:24:33.717266",
+    "activity_type": "documentation",
+    "description": "Update dependencies optimizing workflow",
+    "energy_level": 88,
+    "focus_score": 99
   }
 ]
