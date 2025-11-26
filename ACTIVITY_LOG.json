@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-01T20:16:13.142787",
-    "activity_type": "planning",
-    "description": "Add new feature idea enhancing performance",
-    "energy_level": 77,
-    "focus_score": 71
-  },
-  {
     "timestamp": "2025-11-02T08:19:21.592603",
     "activity_type": "documentation",
     "description": "Update dependencies following best practices",
@@ -698,5 +691,12 @@
     "description": "Add analytics for better user experience",
     "energy_level": 67,
     "focus_score": 95
+  },
+  {
+    "timestamp": "2025-11-26T20:19:54.189720",
+    "activity_type": "documentation",
+    "description": "Add analytics enhancing performance",
+    "energy_level": 81,
+    "focus_score": 82
   }
 ]
