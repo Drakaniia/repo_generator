@@ -3,7 +3,7 @@
 ## Friday, November 28, 2025
 
 ### Tip of the Day
-Performance matters, but readability first
+Take breaks to avoid burnout
 
 ### Today's Progress
 - Automated profile updates
@@ -18,7 +18,7 @@ Performance matters, but readability first
 - User experience
 
 ### Productivity Score
-**89%** - Great work! Keep it up!
+**80%** - Great work! Keep it up!
 
 ---
-*Last updated: 08:24:29 UTC*
+*Last updated: 12:36:17 UTC*
