@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-03T08:24:41.914258",
-    "activity_type": "code",
-    "description": "Update build scripts for production readiness",
-    "energy_level": 80,
-    "focus_score": 85
-  },
-  {
     "timestamp": "2025-11-03T12:36:55.701105",
     "activity_type": "planning",
     "description": "Add tests enhancing performance",
@@ -698,5 +691,12 @@
     "description": "Fix minor bug for better user experience",
     "energy_level": 73,
     "focus_score": 80
+  },
+  {
+    "timestamp": "2025-11-28T08:24:29.839529",
+    "activity_type": "documentation",
+    "description": "Fix minor bug optimizing workflow",
+    "energy_level": 64,
+    "focus_score": 75
   }
 ]
