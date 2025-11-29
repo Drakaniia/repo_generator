@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-04T20:19:45.841383",
-    "activity_type": "planning",
-    "description": "🔒 Security update based on user feedback",
-    "energy_level": 71,
-    "focus_score": 97
-  },
-  {
     "timestamp": "2025-11-05T08:23:47.379858",
     "activity_type": "review",
     "description": "Add new feature idea to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness for production readiness",
     "energy_level": 91,
     "focus_score": 90
+  },
+  {
+    "timestamp": "2025-11-29T20:18:41.888335",
+    "activity_type": "review",
+    "description": "Improve code structure based on user feedback",
+    "energy_level": 68,
+    "focus_score": 82
   }
 ]
