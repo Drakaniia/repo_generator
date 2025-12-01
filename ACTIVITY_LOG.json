@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-06T16:23:10.545496",
-    "activity_type": "code",
-    "description": "♻️ Refactor code for better user experience",
-    "energy_level": 89,
-    "focus_score": 97
-  },
-  {
     "timestamp": "2025-11-06T20:19:23.994847",
     "activity_type": "review",
     "description": "Add tests with latest standards",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea for better user experience",
     "energy_level": 60,
     "focus_score": 86
+  },
+  {
+    "timestamp": "2025-12-01T16:25:17.323675",
+    "activity_type": "review",
+    "description": "Add new feature idea to improve maintainability",
+    "energy_level": 60,
+    "focus_score": 85
   }
 ]
