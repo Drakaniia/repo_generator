@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-06T20:19:23.994847",
-    "activity_type": "review",
-    "description": "Add tests with latest standards",
-    "energy_level": 99,
-    "focus_score": 83
-  },
-  {
     "timestamp": "2025-11-07T08:23:32.618616",
     "activity_type": "review",
     "description": "Fix minor bug based on user feedback",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea to improve maintainability",
     "energy_level": 60,
     "focus_score": 85
+  },
+  {
+    "timestamp": "2025-12-01T20:18:28.678534",
+    "activity_type": "documentation",
+    "description": "Improve SEO to improve maintainability",
+    "energy_level": 87,
+    "focus_score": 89
   }
 ]
