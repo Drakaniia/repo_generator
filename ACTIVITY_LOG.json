@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-07T08:23:32.618616",
-    "activity_type": "review",
-    "description": "Fix minor bug based on user feedback",
-    "energy_level": 76,
-    "focus_score": 82
-  },
-  {
     "timestamp": "2025-11-07T12:35:12.554335",
     "activity_type": "planning",
     "description": "Add tests for production readiness",
@@ -698,5 +691,12 @@
     "description": "Improve SEO to improve maintainability",
     "energy_level": 87,
     "focus_score": 89
+  },
+  {
+    "timestamp": "2025-12-02T08:26:52.409614",
+    "activity_type": "code",
+    "description": "⚡ Performance optimization fixing edge cases",
+    "energy_level": 87,
+    "focus_score": 74
   }
 ]
