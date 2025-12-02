@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-07T12:35:12.554335",
-    "activity_type": "planning",
-    "description": "Add tests for production readiness",
-    "energy_level": 87,
-    "focus_score": 72
-  },
-  {
     "timestamp": "2025-11-07T16:21:58.053991",
     "activity_type": "code",
     "description": "Update UI components based on user feedback",
@@ -698,5 +691,12 @@
     "description": "⚡ Performance optimization fixing edge cases",
     "energy_level": 87,
     "focus_score": 74
+  },
+  {
+    "timestamp": "2025-12-02T12:38:57.839182",
+    "activity_type": "code",
+    "description": "Update UI components with latest standards",
+    "energy_level": 94,
+    "focus_score": 72
   }
 ]
