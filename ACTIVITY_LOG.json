@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-08T20:16:23.258119",
-    "activity_type": "review",
-    "description": "Update dependencies enhancing performance",
-    "energy_level": 73,
-    "focus_score": 83
-  },
-  {
     "timestamp": "2025-11-09T08:19:20.767802",
     "activity_type": "review",
     "description": "♻️ Refactor code for better user experience",
@@ -698,5 +691,12 @@
     "description": "🔒 Security update enhancing performance",
     "energy_level": 98,
     "focus_score": 71
+  },
+  {
+    "timestamp": "2025-12-03T20:21:18.752025",
+    "activity_type": "review",
+    "description": "Improve code structure based on user feedback",
+    "energy_level": 86,
+    "focus_score": 70
   }
 ]
