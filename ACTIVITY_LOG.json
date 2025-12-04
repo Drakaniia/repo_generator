@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-09T08:19:20.767802",
-    "activity_type": "review",
-    "description": "♻️ Refactor code for better user experience",
-    "energy_level": 77,
-    "focus_score": 90
-  },
-  {
     "timestamp": "2025-11-09T12:31:36.737611",
     "activity_type": "code",
     "description": "Improve mobile responsiveness for production readiness",
@@ -698,5 +691,12 @@
     "description": "Improve code structure based on user feedback",
     "energy_level": 86,
     "focus_score": 70
+  },
+  {
+    "timestamp": "2025-12-04T08:26:25.761260",
+    "activity_type": "review",
+    "description": "Update build scripts based on user feedback",
+    "energy_level": 72,
+    "focus_score": 86
   }
 ]
