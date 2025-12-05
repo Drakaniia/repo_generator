@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-10T20:20:20.751681",
-    "activity_type": "code",
-    "description": "Improve mobile responsiveness optimizing workflow",
-    "energy_level": 97,
-    "focus_score": 76
-  },
-  {
     "timestamp": "2025-11-11T08:23:11.193482",
     "activity_type": "documentation",
     "description": "⚡ Performance optimization with latest standards",
@@ -698,5 +691,12 @@
     "description": "Add internationalization enhancing performance",
     "energy_level": 67,
     "focus_score": 83
+  },
+  {
+    "timestamp": "2025-12-05T20:20:12.228835",
+    "activity_type": "code",
+    "description": "Add internationalization with latest standards",
+    "energy_level": 62,
+    "focus_score": 95
   }
 ]
