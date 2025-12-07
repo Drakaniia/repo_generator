@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-12T08:24:29.751222",
-    "activity_type": "code",
-    "description": "Update documentation enhancing performance",
-    "energy_level": 62,
-    "focus_score": 82
-  },
-  {
     "timestamp": "2025-11-12T12:36:52.621585",
     "activity_type": "review",
     "description": "Improve targeting with latest standards",
@@ -698,5 +691,12 @@
     "description": "Update build scripts optimizing workflow",
     "energy_level": 84,
     "focus_score": 72
+  },
+  {
+    "timestamp": "2025-12-07T08:21:07.904239",
+    "activity_type": "planning",
+    "description": "Add tests improving code quality",
+    "energy_level": 69,
+    "focus_score": 97
   }
 ]
