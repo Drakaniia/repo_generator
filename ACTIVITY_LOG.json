@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-14T16:22:09.435474",
-    "activity_type": "planning",
-    "description": "♻️ Refactor code based on user feedback",
-    "energy_level": 90,
-    "focus_score": 73
-  },
-  {
     "timestamp": "2025-11-14T20:19:34.078513",
     "activity_type": "planning",
     "description": "Add new feature idea following best practices",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea for better user experience",
     "energy_level": 85,
     "focus_score": 83
+  },
+  {
+    "timestamp": "2025-12-09T16:24:33.889129",
+    "activity_type": "review",
+    "description": "Add new feature idea with latest standards",
+    "energy_level": 79,
+    "focus_score": 86
   }
 ]
