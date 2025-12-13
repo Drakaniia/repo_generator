@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-18T08:23:51.632721",
-    "activity_type": "planning",
-    "description": "Fix CI build for better user experience",
-    "energy_level": 76,
-    "focus_score": 88
-  },
-  {
     "timestamp": "2025-11-18T12:36:58.663658",
     "activity_type": "documentation",
     "description": "♻️ Refactor code based on user feedback",
@@ -698,5 +691,12 @@
     "description": "Update documentation following best practices",
     "energy_level": 71,
     "focus_score": 82
+  },
+  {
+    "timestamp": "2025-12-13T08:21:47.257867",
+    "activity_type": "review",
+    "description": "Fix minor bug following best practices",
+    "energy_level": 60,
+    "focus_score": 98
   }
 ]
