@@ -3,7 +3,7 @@
 ## Sunday, December 14, 2025
 
 ### Tip of the Day
-Small commits are better than big ones
+Take breaks to avoid burnout
 
 ### Today's Progress
 - Automated profile updates
@@ -21,4 +21,4 @@ Small commits are better than big ones
 **82%** - Great work! Keep it up!
 
 ---
-*Last updated: 08:22:31 UTC*
+*Last updated: 12:34:43 UTC*
