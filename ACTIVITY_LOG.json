@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-19T08:23:51.367451",
-    "activity_type": "code",
-    "description": "Update dependencies based on user feedback",
-    "energy_level": 94,
-    "focus_score": 72
-  },
-  {
     "timestamp": "2025-11-19T12:37:25.991432",
     "activity_type": "code",
     "description": "Update dependencies improving code quality",
@@ -698,5 +691,12 @@
     "description": "Add internationalization with latest standards",
     "energy_level": 95,
     "focus_score": 92
+  },
+  {
+    "timestamp": "2025-12-14T08:22:31.541782",
+    "activity_type": "planning",
+    "description": "Improve SEO enhancing performance",
+    "energy_level": 84,
+    "focus_score": 88
   }
 ]
