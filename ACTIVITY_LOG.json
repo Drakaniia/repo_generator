@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-22T16:19:45.399709",
-    "activity_type": "documentation",
-    "description": "Add new feature idea optimizing workflow",
-    "energy_level": 78,
-    "focus_score": 98
-  },
-  {
     "timestamp": "2025-11-22T20:18:03.911688",
     "activity_type": "review",
     "description": "Add tests improving code quality",
@@ -698,5 +691,12 @@
     "description": "Update configuration fixing edge cases",
     "energy_level": 93,
     "focus_score": 91
+  },
+  {
+    "timestamp": "2025-12-17T16:25:29.557733",
+    "activity_type": "code",
+    "description": "Update dependencies fixing edge cases",
+    "energy_level": 70,
+    "focus_score": 81
   }
 ]
