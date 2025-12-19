@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-24T16:20:26.669182",
-    "activity_type": "documentation",
-    "description": "Improve SEO based on user feedback",
-    "energy_level": 75,
-    "focus_score": 80
-  },
-  {
     "timestamp": "2025-11-24T20:20:16.421280",
     "activity_type": "documentation",
     "description": "Improve SEO improving code quality",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea optimizing workflow",
     "energy_level": 63,
     "focus_score": 77
+  },
+  {
+    "timestamp": "2025-12-19T16:23:01.047079",
+    "activity_type": "review",
+    "description": "Update dependencies to improve maintainability",
+    "energy_level": 95,
+    "focus_score": 70
   }
 ]
