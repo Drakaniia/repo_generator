@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-27T20:17:43.223258",
-    "activity_type": "planning",
-    "description": "Fix minor bug for better user experience",
-    "energy_level": 73,
-    "focus_score": 80
-  },
-  {
     "timestamp": "2025-11-28T08:24:29.839529",
     "activity_type": "documentation",
     "description": "Fix minor bug optimizing workflow",
@@ -698,5 +691,12 @@
     "description": "🔒 Security update to improve maintainability",
     "energy_level": 100,
     "focus_score": 95
+  },
+  {
+    "timestamp": "2025-12-22T20:20:30.208785",
+    "activity_type": "planning",
+    "description": "Add internationalization optimizing workflow",
+    "energy_level": 90,
+    "focus_score": 94
   }
 ]
