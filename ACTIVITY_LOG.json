@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-27T08:25:03.468315",
-    "activity_type": "documentation",
-    "description": "Update configuration to improve maintainability",
-    "energy_level": 92,
-    "focus_score": 100
-  },
-  {
     "timestamp": "2025-11-27T12:37:38.321245",
     "activity_type": "code",
     "description": "Improve code structure based on user feedback",
@@ -698,5 +691,12 @@
     "description": "🚀 Deploy new version fixing edge cases",
     "energy_level": 96,
     "focus_score": 87
+  },
+  {
+    "timestamp": "2025-12-22T08:27:25.705199",
+    "activity_type": "review",
+    "description": "Add analytics improving code quality",
+    "energy_level": 60,
+    "focus_score": 76
   }
 ]
