@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-28T16:22:02.379907",
-    "activity_type": "code",
-    "description": "🔒 Security update fixing edge cases",
-    "energy_level": 91,
-    "focus_score": 88
-  },
-  {
     "timestamp": "2025-11-28T20:19:18.111810",
     "activity_type": "documentation",
     "description": "Add new feature idea improving code quality",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness enhancing performance",
     "energy_level": 95,
     "focus_score": 76
+  },
+  {
+    "timestamp": "2025-12-23T16:23:56.708585",
+    "activity_type": "planning",
+    "description": "Update documentation to improve maintainability",
+    "energy_level": 72,
+    "focus_score": 85
   }
 ]
