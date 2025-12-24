@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-29T08:21:56.877630",
-    "activity_type": "review",
-    "description": "Add analytics with latest standards",
-    "energy_level": 89,
-    "focus_score": 81
-  },
-  {
     "timestamp": "2025-11-29T12:33:29.244525",
     "activity_type": "review",
     "description": "Improve code structure following best practices",
@@ -698,5 +691,12 @@
     "description": "Improve SEO with latest standards",
     "energy_level": 87,
     "focus_score": 81
+  },
+  {
+    "timestamp": "2025-12-24T08:26:27.701234",
+    "activity_type": "code",
+    "description": "Improve mobile responsiveness enhancing performance",
+    "energy_level": 80,
+    "focus_score": 70
   }
 ]
