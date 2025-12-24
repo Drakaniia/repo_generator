@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-29T16:20:23.943047",
-    "activity_type": "documentation",
-    "description": "Improve mobile responsiveness for production readiness",
-    "energy_level": 91,
-    "focus_score": 90
-  },
-  {
     "timestamp": "2025-11-29T20:18:41.888335",
     "activity_type": "review",
     "description": "Improve code structure based on user feedback",
@@ -698,5 +691,12 @@
     "description": "Update dependencies following best practices",
     "energy_level": 80,
     "focus_score": 95
+  },
+  {
+    "timestamp": "2025-12-24T16:22:33.099028",
+    "activity_type": "review",
+    "description": "Add internationalization for better user experience",
+    "energy_level": 61,
+    "focus_score": 98
   }
 ]
