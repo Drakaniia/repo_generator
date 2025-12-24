@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-11-29T20:18:41.888335",
-    "activity_type": "review",
-    "description": "Improve code structure based on user feedback",
-    "energy_level": 68,
-    "focus_score": 82
-  },
-  {
     "timestamp": "2025-11-30T08:20:53.147944",
     "activity_type": "code",
     "description": "Update UI components with latest standards",
@@ -698,5 +691,12 @@
     "description": "Add internationalization for better user experience",
     "energy_level": 61,
     "focus_score": 98
+  },
+  {
+    "timestamp": "2025-12-24T20:19:35.067120",
+    "activity_type": "documentation",
+    "description": "♻️ Refactor code enhancing performance",
+    "energy_level": 87,
+    "focus_score": 100
   }
 ]
