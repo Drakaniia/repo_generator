@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-02T08:26:52.409614",
-    "activity_type": "code",
-    "description": "⚡ Performance optimization fixing edge cases",
-    "energy_level": 87,
-    "focus_score": 74
-  },
-  {
     "timestamp": "2025-12-02T12:38:57.839182",
     "activity_type": "code",
     "description": "Update UI components with latest standards",
@@ -698,5 +691,12 @@
     "description": "Fix minor bug optimizing workflow",
     "energy_level": 65,
     "focus_score": 95
+  },
+  {
+    "timestamp": "2025-12-27T08:23:54.019374",
+    "activity_type": "review",
+    "description": "Update build scripts improving code quality",
+    "energy_level": 69,
+    "focus_score": 82
   }
 ]
