@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-03T12:38:30.510424",
-    "activity_type": "code",
-    "description": "🔒 Security update optimizing workflow",
-    "energy_level": 96,
-    "focus_score": 73
-  },
-  {
     "timestamp": "2025-12-03T16:25:47.912368",
     "activity_type": "planning",
     "description": "🔒 Security update enhancing performance",
@@ -698,5 +691,12 @@
     "description": "Add analytics improving code quality",
     "energy_level": 92,
     "focus_score": 80
+  },
+  {
+    "timestamp": "2025-12-28T12:35:50.990124",
+    "activity_type": "review",
+    "description": "Update build scripts optimizing workflow",
+    "energy_level": 97,
+    "focus_score": 91
   }
 ]
