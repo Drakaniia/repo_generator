@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-03T20:21:18.752025",
-    "activity_type": "review",
-    "description": "Improve code structure based on user feedback",
-    "energy_level": 86,
-    "focus_score": 70
-  },
-  {
     "timestamp": "2025-12-04T08:26:25.761260",
     "activity_type": "review",
     "description": "Update build scripts based on user feedback",
@@ -698,5 +691,12 @@
     "description": "🚀 Deploy new version improving code quality",
     "energy_level": 88,
     "focus_score": 77
+  },
+  {
+    "timestamp": "2025-12-28T20:20:03.658493",
+    "activity_type": "review",
+    "description": "Improve SEO following best practices",
+    "energy_level": 61,
+    "focus_score": 70
   }
 ]
