@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-06T16:20:06.464073",
-    "activity_type": "planning",
-    "description": "Add internationalization fixing edge cases",
-    "energy_level": 91,
-    "focus_score": 94
-  },
-  {
     "timestamp": "2025-12-06T20:18:40.908816",
     "activity_type": "review",
     "description": "Update build scripts optimizing workflow",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness based on user feedback",
     "energy_level": 89,
     "focus_score": 73
+  },
+  {
+    "timestamp": "2025-12-31T16:22:58.085797",
+    "activity_type": "review",
+    "description": "Add new feature idea optimizing workflow",
+    "energy_level": 77,
+    "focus_score": 83
   }
 ]
