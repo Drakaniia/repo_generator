@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-06T12:33:36.194095",
-    "activity_type": "planning",
-    "description": "Add new feature idea based on user feedback",
-    "energy_level": 86,
-    "focus_score": 80
-  },
-  {
     "timestamp": "2025-12-06T16:20:06.464073",
     "activity_type": "planning",
     "description": "Add internationalization fixing edge cases",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness with latest standards",
     "energy_level": 97,
     "focus_score": 90
+  },
+  {
+    "timestamp": "2025-12-31T12:37:59.972955",
+    "activity_type": "review",
+    "description": "Improve mobile responsiveness based on user feedback",
+    "energy_level": 89,
+    "focus_score": 73
   }
 ]
