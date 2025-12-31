@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-06T08:21:42.516517",
-    "activity_type": "documentation",
-    "description": "Update configuration to improve maintainability",
-    "energy_level": 93,
-    "focus_score": 74
-  },
-  {
     "timestamp": "2025-12-06T12:33:36.194095",
     "activity_type": "planning",
     "description": "Add new feature idea based on user feedback",
@@ -698,5 +691,12 @@
     "description": "🚀 Deploy new version fixing edge cases",
     "energy_level": 65,
     "focus_score": 86
+  },
+  {
+    "timestamp": "2025-12-31T08:26:26.591150",
+    "activity_type": "review",
+    "description": "Improve mobile responsiveness with latest standards",
+    "energy_level": 97,
+    "focus_score": 90
   }
 ]
