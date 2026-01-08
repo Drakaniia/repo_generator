@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-14T08:22:31.541782",
-    "activity_type": "planning",
-    "description": "Improve SEO enhancing performance",
-    "energy_level": 84,
-    "focus_score": 88
-  },
-  {
     "timestamp": "2025-12-14T12:34:43.038824",
     "activity_type": "review",
     "description": "Improve code structure based on user feedback",
@@ -698,5 +691,12 @@
     "description": "Update build scripts following best practices",
     "energy_level": 69,
     "focus_score": 86
+  },
+  {
+    "timestamp": "2026-01-08T08:27:32.381243",
+    "activity_type": "code",
+    "description": "Add analytics with latest standards",
+    "energy_level": 65,
+    "focus_score": 90
   }
 ]
