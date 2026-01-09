@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-15T20:21:02.972406",
-    "activity_type": "review",
-    "description": "Add analytics fixing edge cases",
-    "energy_level": 99,
-    "focus_score": 82
-  },
-  {
     "timestamp": "2025-12-16T08:27:06.765363",
     "activity_type": "review",
     "description": "Fix CI build with latest standards",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea based on user feedback",
     "energy_level": 98,
     "focus_score": 90
+  },
+  {
+    "timestamp": "2026-01-09T20:21:47.763912",
+    "activity_type": "planning",
+    "description": "Improve SEO improving code quality",
+    "energy_level": 60,
+    "focus_score": 71
   }
 ]
