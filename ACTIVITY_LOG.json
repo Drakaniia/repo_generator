@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-18T16:26:38.997763",
-    "activity_type": "documentation",
-    "description": "⚡ Performance optimization following best practices",
-    "energy_level": 81,
-    "focus_score": 71
-  },
-  {
     "timestamp": "2025-12-18T20:18:34.459196",
     "activity_type": "planning",
     "description": "Add analytics with latest standards",
@@ -698,5 +691,12 @@
     "description": "Update build scripts fixing edge cases",
     "energy_level": 95,
     "focus_score": 70
+  },
+  {
+    "timestamp": "2026-01-12T16:24:24.060510",
+    "activity_type": "planning",
+    "description": "Fix minor bug based on user feedback",
+    "energy_level": 60,
+    "focus_score": 100
   }
 ]
