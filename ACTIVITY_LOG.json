@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-19T08:26:07.855532",
-    "activity_type": "planning",
-    "description": "Add tests following best practices",
-    "energy_level": 98,
-    "focus_score": 72
-  },
-  {
     "timestamp": "2025-12-19T12:37:11.538498",
     "activity_type": "review",
     "description": "Add new feature idea optimizing workflow",
@@ -698,5 +691,12 @@
     "description": "⚡ Performance optimization for production readiness",
     "energy_level": 82,
     "focus_score": 77
+  },
+  {
+    "timestamp": "2026-01-13T08:27:42.017888",
+    "activity_type": "planning",
+    "description": "Update dependencies to improve maintainability",
+    "energy_level": 65,
+    "focus_score": 75
   }
 ]
