@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-20T16:20:47.304790",
-    "activity_type": "review",
-    "description": "Update documentation based on user feedback",
-    "energy_level": 74,
-    "focus_score": 77
-  },
-  {
     "timestamp": "2025-12-20T20:18:16.507442",
     "activity_type": "review",
     "description": "🚀 Deploy new version for better user experience",
@@ -698,5 +691,12 @@
     "description": "Update dependencies with latest standards",
     "energy_level": 65,
     "focus_score": 95
+  },
+  {
+    "timestamp": "2026-01-14T16:27:07.568782",
+    "activity_type": "code",
+    "description": "⚡ Performance optimization optimizing workflow",
+    "energy_level": 91,
+    "focus_score": 80
   }
 ]
