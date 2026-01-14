@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-20T20:18:16.507442",
-    "activity_type": "review",
-    "description": "🚀 Deploy new version for better user experience",
-    "energy_level": 83,
-    "focus_score": 83
-  },
-  {
     "timestamp": "2025-12-21T08:22:50.830396",
     "activity_type": "documentation",
     "description": "🔒 Security update based on user feedback",
@@ -698,5 +691,12 @@
     "description": "⚡ Performance optimization optimizing workflow",
     "energy_level": 91,
     "focus_score": 80
+  },
+  {
+    "timestamp": "2026-01-14T20:18:36.393200",
+    "activity_type": "documentation",
+    "description": "Add new feature idea based on user feedback",
+    "energy_level": 67,
+    "focus_score": 81
   }
 ]
