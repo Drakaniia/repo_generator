@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-23T20:19:33.083469",
-    "activity_type": "documentation",
-    "description": "Improve SEO with latest standards",
-    "energy_level": 87,
-    "focus_score": 81
-  },
-  {
     "timestamp": "2025-12-24T08:26:27.701234",
     "activity_type": "code",
     "description": "Improve mobile responsiveness enhancing performance",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea to improve maintainability",
     "energy_level": 78,
     "focus_score": 98
+  },
+  {
+    "timestamp": "2026-01-17T20:19:14.024784",
+    "activity_type": "planning",
+    "description": "Update build scripts for better user experience",
+    "energy_level": 60,
+    "focus_score": 80
   }
 ]
