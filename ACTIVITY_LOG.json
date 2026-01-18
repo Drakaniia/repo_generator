@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-24T08:26:27.701234",
-    "activity_type": "code",
-    "description": "Improve mobile responsiveness enhancing performance",
-    "energy_level": 80,
-    "focus_score": 70
-  },
-  {
     "timestamp": "2025-12-24T12:38:05.922230",
     "activity_type": "documentation",
     "description": "Update dependencies following best practices",
@@ -698,5 +691,12 @@
     "description": "Update build scripts for better user experience",
     "energy_level": 60,
     "focus_score": 80
+  },
+  {
+    "timestamp": "2026-01-18T08:23:27.358254",
+    "activity_type": "review",
+    "description": "Update build scripts following best practices",
+    "energy_level": 73,
+    "focus_score": 100
   }
 ]
