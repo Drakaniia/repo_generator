@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-27T16:21:03.535324",
-    "activity_type": "planning",
-    "description": "Add new feature idea fixing edge cases",
-    "energy_level": 99,
-    "focus_score": 78
-  },
-  {
     "timestamp": "2025-12-27T20:19:55.602272",
     "activity_type": "planning",
     "description": "Update build scripts optimizing workflow",
@@ -698,5 +691,12 @@
     "description": "🚀 Deploy new version to improve maintainability",
     "energy_level": 73,
     "focus_score": 82
+  },
+  {
+    "timestamp": "2026-01-21T16:41:11.878365",
+    "activity_type": "review",
+    "description": "🎉 Release new version with latest standards",
+    "energy_level": 99,
+    "focus_score": 80
   }
 ]
