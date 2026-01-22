@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-28T12:35:50.990124",
-    "activity_type": "review",
-    "description": "Update build scripts optimizing workflow",
-    "energy_level": 97,
-    "focus_score": 91
-  },
-  {
     "timestamp": "2025-12-28T16:21:20.529181",
     "activity_type": "documentation",
     "description": "🚀 Deploy new version improving code quality",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea fixing edge cases",
     "energy_level": 67,
     "focus_score": 75
+  },
+  {
+    "timestamp": "2026-01-22T12:43:13.349557",
+    "activity_type": "planning",
+    "description": "Update documentation improving code quality",
+    "energy_level": 85,
+    "focus_score": 96
   }
 ]
