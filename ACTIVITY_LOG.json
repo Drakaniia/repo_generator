@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-29T12:40:03.099993",
-    "activity_type": "review",
-    "description": "Improve SEO fixing edge cases",
-    "energy_level": 79,
-    "focus_score": 77
-  },
-  {
     "timestamp": "2025-12-29T16:22:57.005336",
     "activity_type": "documentation",
     "description": "🎉 Release new version following best practices",
@@ -698,5 +691,12 @@
     "description": "Update dependencies to improve maintainability",
     "energy_level": 90,
     "focus_score": 97
+  },
+  {
+    "timestamp": "2026-01-23T12:41:41.311860",
+    "activity_type": "code",
+    "description": "Fix minor bug improving code quality",
+    "energy_level": 78,
+    "focus_score": 72
   }
 ]
