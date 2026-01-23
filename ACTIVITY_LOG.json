@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-29T08:28:17.852367",
-    "activity_type": "code",
-    "description": "🔒 Security update for better user experience",
-    "energy_level": 74,
-    "focus_score": 74
-  },
-  {
     "timestamp": "2025-12-29T12:40:03.099993",
     "activity_type": "review",
     "description": "Improve SEO fixing edge cases",
@@ -698,5 +691,12 @@
     "description": "🚀 Deploy new version for better user experience",
     "energy_level": 66,
     "focus_score": 91
+  },
+  {
+    "timestamp": "2026-01-23T08:27:05.826174",
+    "activity_type": "code",
+    "description": "Update dependencies to improve maintainability",
+    "energy_level": 90,
+    "focus_score": 97
   }
 ]
