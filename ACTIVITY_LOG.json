@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-30T08:26:13.646052",
-    "activity_type": "planning",
-    "description": "Update documentation with latest standards",
-    "energy_level": 62,
-    "focus_score": 90
-  },
-  {
     "timestamp": "2025-12-30T12:39:01.201587",
     "activity_type": "code",
     "description": "Fix minor bug to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Fix minor bug for better user experience",
     "energy_level": 74,
     "focus_score": 99
+  },
+  {
+    "timestamp": "2026-01-24T08:23:58.690288",
+    "activity_type": "documentation",
+    "description": "⚡ Performance optimization to improve maintainability",
+    "energy_level": 83,
+    "focus_score": 79
   }
 ]
