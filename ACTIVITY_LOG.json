@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-30T20:20:39.151196",
-    "activity_type": "code",
-    "description": "🚀 Deploy new version fixing edge cases",
-    "energy_level": 65,
-    "focus_score": 86
-  },
-  {
     "timestamp": "2025-12-31T08:26:26.591150",
     "activity_type": "review",
     "description": "Improve mobile responsiveness with latest standards",
@@ -698,5 +691,12 @@
     "description": "🔒 Security update enhancing performance",
     "energy_level": 72,
     "focus_score": 73
+  },
+  {
+    "timestamp": "2026-01-24T20:19:13.712559",
+    "activity_type": "planning",
+    "description": "⚡ Performance optimization enhancing performance",
+    "energy_level": 77,
+    "focus_score": 78
   }
 ]
