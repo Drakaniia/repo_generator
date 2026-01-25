@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2025-12-31T16:22:58.085797",
-    "activity_type": "review",
-    "description": "Add new feature idea optimizing workflow",
-    "energy_level": 77,
-    "focus_score": 83
-  },
-  {
     "timestamp": "2025-12-31T20:19:37.723852",
     "activity_type": "code",
     "description": "Fix CI build for better user experience",
@@ -698,5 +691,12 @@
     "description": "Update configuration following best practices",
     "energy_level": 87,
     "focus_score": 92
+  },
+  {
+    "timestamp": "2026-01-25T16:22:12.129510",
+    "activity_type": "review",
+    "description": "♻️ Refactor code for production readiness",
+    "energy_level": 78,
+    "focus_score": 76
   }
 ]
