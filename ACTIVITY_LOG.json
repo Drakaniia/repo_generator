@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-01T08:26:21.478396",
-    "activity_type": "review",
-    "description": "Improve mobile responsiveness enhancing performance",
-    "energy_level": 64,
-    "focus_score": 81
-  },
-  {
     "timestamp": "2026-01-01T12:37:48.287870",
     "activity_type": "documentation",
     "description": "⚡ Performance optimization enhancing performance",
@@ -698,5 +691,12 @@
     "description": "Update documentation for better user experience",
     "energy_level": 82,
     "focus_score": 82
+  },
+  {
+    "timestamp": "2026-01-26T08:29:28.253083",
+    "activity_type": "planning",
+    "description": "Update documentation with latest standards",
+    "energy_level": 67,
+    "focus_score": 74
   }
 ]
