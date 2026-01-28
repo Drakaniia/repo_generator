@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-03T20:19:53.038148",
-    "activity_type": "planning",
-    "description": "Improve SEO optimizing workflow",
-    "energy_level": 71,
-    "focus_score": 82
-  },
-  {
     "timestamp": "2026-01-04T08:24:24.057715",
     "activity_type": "code",
     "description": "Improve targeting based on user feedback",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness based on user feedback",
     "energy_level": 88,
     "focus_score": 88
+  },
+  {
+    "timestamp": "2026-01-28T20:27:34.126471",
+    "activity_type": "planning",
+    "description": "Update UI components following best practices",
+    "energy_level": 87,
+    "focus_score": 82
   }
 ]
