@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-05T12:41:21.391782",
-    "activity_type": "code",
-    "description": "⚡ Performance optimization for better user experience",
-    "energy_level": 94,
-    "focus_score": 70
-  },
-  {
     "timestamp": "2026-01-05T16:24:55.682994",
     "activity_type": "documentation",
     "description": "♻️ Refactor code for production readiness",
@@ -698,5 +691,12 @@
     "description": "🔒 Security update fixing edge cases",
     "energy_level": 70,
     "focus_score": 86
+  },
+  {
+    "timestamp": "2026-01-30T12:50:32.465384",
+    "activity_type": "review",
+    "description": "♻️ Refactor code with latest standards",
+    "energy_level": 77,
+    "focus_score": 77
   }
 ]
