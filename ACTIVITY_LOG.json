@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-05T08:29:20.984787",
-    "activity_type": "planning",
-    "description": "Update dependencies fixing edge cases",
-    "energy_level": 75,
-    "focus_score": 78
-  },
-  {
     "timestamp": "2026-01-05T12:41:21.391782",
     "activity_type": "code",
     "description": "⚡ Performance optimization for better user experience",
@@ -697,6 +690,13 @@
     "activity_type": "review",
     "description": "♻️ Refactor code for better user experience",
     "energy_level": 100,
+    "focus_score": 86
+  },
+  {
+    "timestamp": "2026-01-30T08:35:16.226930",
+    "activity_type": "review",
+    "description": "🔒 Security update fixing edge cases",
+    "energy_level": 70,
     "focus_score": 86
   }
 ]
