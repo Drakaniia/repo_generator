@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-06T12:39:43.079310",
-    "activity_type": "documentation",
-    "description": "Update dependencies following best practices",
-    "energy_level": 100,
-    "focus_score": 74
-  },
-  {
     "timestamp": "2026-01-06T16:25:20.464557",
     "activity_type": "planning",
     "description": "Add tests following best practices",
@@ -698,5 +691,12 @@
     "description": "Fix CI build optimizing workflow",
     "energy_level": 76,
     "focus_score": 70
+  },
+  {
+    "timestamp": "2026-01-31T12:41:32.331362",
+    "activity_type": "planning",
+    "description": "Fix CI build based on user feedback",
+    "energy_level": 65,
+    "focus_score": 80
   }
 ]
