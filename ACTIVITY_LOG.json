@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-07T20:22:13.896646",
-    "activity_type": "documentation",
-    "description": "Update build scripts following best practices",
-    "energy_level": 69,
-    "focus_score": 86
-  },
-  {
     "timestamp": "2026-01-08T08:27:32.381243",
     "activity_type": "code",
     "description": "Add analytics with latest standards",
@@ -698,5 +691,12 @@
     "description": "Add internationalization to improve maintainability",
     "energy_level": 91,
     "focus_score": 97
+  },
+  {
+    "timestamp": "2026-02-01T20:23:03.954142",
+    "activity_type": "code",
+    "description": "Add analytics following best practices",
+    "energy_level": 72,
+    "focus_score": 94
   }
 ]
