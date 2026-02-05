@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-11T16:21:45.188241",
-    "activity_type": "documentation",
-    "description": "Add internationalization to improve maintainability",
-    "energy_level": 75,
-    "focus_score": 84
-  },
-  {
     "timestamp": "2026-01-11T20:20:16.556193",
     "activity_type": "code",
     "description": "Update documentation improving code quality",
@@ -698,5 +691,12 @@
     "description": "Fix minor bug based on user feedback",
     "energy_level": 89,
     "focus_score": 77
+  },
+  {
+    "timestamp": "2026-02-05T20:30:26.865545",
+    "activity_type": "review",
+    "description": "♻️ Refactor code to improve maintainability",
+    "energy_level": 98,
+    "focus_score": 83
   }
 ]
