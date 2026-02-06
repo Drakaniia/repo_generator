@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-12T12:41:56.718492",
-    "activity_type": "planning",
-    "description": "Update build scripts fixing edge cases",
-    "energy_level": 95,
-    "focus_score": 70
-  },
-  {
     "timestamp": "2026-01-12T16:24:24.060510",
     "activity_type": "planning",
     "description": "Fix minor bug based on user feedback",
@@ -698,5 +691,12 @@
     "description": "🔒 Security update for better user experience",
     "energy_level": 62,
     "focus_score": 81
+  },
+  {
+    "timestamp": "2026-02-06T16:40:37.061899",
+    "activity_type": "documentation",
+    "description": "Add internationalization with latest standards",
+    "energy_level": 79,
+    "focus_score": 87
   }
 ]
