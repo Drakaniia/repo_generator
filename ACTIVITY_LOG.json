@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-12T20:22:14.273633",
-    "activity_type": "code",
-    "description": "⚡ Performance optimization for production readiness",
-    "energy_level": 82,
-    "focus_score": 77
-  },
-  {
     "timestamp": "2026-01-13T08:27:42.017888",
     "activity_type": "planning",
     "description": "Update dependencies to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness optimizing workflow",
     "energy_level": 97,
     "focus_score": 93
+  },
+  {
+    "timestamp": "2026-02-07T08:28:11.756020",
+    "activity_type": "review",
+    "description": "Update documentation with latest standards",
+    "energy_level": 88,
+    "focus_score": 99
   }
 ]
