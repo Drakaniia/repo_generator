@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-14T16:27:07.568782",
-    "activity_type": "code",
-    "description": "⚡ Performance optimization optimizing workflow",
-    "energy_level": 91,
-    "focus_score": 80
-  },
-  {
     "timestamp": "2026-01-14T20:18:36.393200",
     "activity_type": "documentation",
     "description": "Add new feature idea based on user feedback",
@@ -697,6 +690,13 @@
     "activity_type": "planning",
     "description": "Improve SEO based on user feedback",
     "energy_level": 86,
+    "focus_score": 100
+  },
+  {
+    "timestamp": "2026-02-08T20:23:55.324370",
+    "activity_type": "planning",
+    "description": "Improve targeting optimizing workflow",
+    "energy_level": 83,
     "focus_score": 100
   }
 ]
