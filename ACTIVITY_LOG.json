@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-14T12:40:48.286709",
-    "activity_type": "documentation",
-    "description": "Update dependencies with latest standards",
-    "energy_level": 65,
-    "focus_score": 95
-  },
-  {
     "timestamp": "2026-01-14T16:27:07.568782",
     "activity_type": "code",
     "description": "⚡ Performance optimization optimizing workflow",
@@ -698,5 +691,12 @@
     "description": "♻️ Refactor code for better user experience",
     "energy_level": 73,
     "focus_score": 92
+  },
+  {
+    "timestamp": "2026-02-08T16:27:54.756369",
+    "activity_type": "planning",
+    "description": "Improve SEO based on user feedback",
+    "energy_level": 86,
+    "focus_score": 100
   }
 ]
