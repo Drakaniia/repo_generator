@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-17T08:22:53.261886",
-    "activity_type": "documentation",
-    "description": "Add analytics to improve maintainability",
-    "energy_level": 89,
-    "focus_score": 80
-  },
-  {
     "timestamp": "2026-01-17T12:35:31.405835",
     "activity_type": "code",
     "description": "Add tests to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Update documentation following best practices",
     "energy_level": 68,
     "focus_score": 82
+  },
+  {
+    "timestamp": "2026-02-11T17:02:07.923103",
+    "activity_type": "documentation",
+    "description": "Improve SEO with latest standards",
+    "energy_level": 87,
+    "focus_score": 73
   }
 ]
