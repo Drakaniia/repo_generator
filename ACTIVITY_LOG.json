@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-19T12:43:45.780605",
-    "activity_type": "documentation",
-    "description": "⚡ Performance optimization for better user experience",
-    "energy_level": 89,
-    "focus_score": 80
-  },
-  {
     "timestamp": "2026-01-19T16:26:20.009686",
     "activity_type": "planning",
     "description": "Update documentation for better user experience",
@@ -698,5 +691,12 @@
     "description": "Update UI components for better user experience",
     "energy_level": 79,
     "focus_score": 76
+  },
+  {
+    "timestamp": "2026-02-13T20:35:15.965627",
+    "activity_type": "review",
+    "description": "Improve targeting with latest standards",
+    "energy_level": 87,
+    "focus_score": 92
   }
 ]
