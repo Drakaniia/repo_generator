@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-19T16:26:20.009686",
-    "activity_type": "planning",
-    "description": "Update documentation for better user experience",
-    "energy_level": 79,
-    "focus_score": 89
-  },
-  {
     "timestamp": "2026-01-19T20:21:16.841047",
     "activity_type": "planning",
     "description": "Fix CI build fixing edge cases",
@@ -698,5 +691,12 @@
     "description": "Improve targeting with latest standards",
     "energy_level": 87,
     "focus_score": 92
+  },
+  {
+    "timestamp": "2026-02-14T08:28:49.859268",
+    "activity_type": "planning",
+    "description": "Improve targeting based on user feedback",
+    "energy_level": 61,
+    "focus_score": 91
   }
 ]
