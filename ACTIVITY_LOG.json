@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-22T08:28:54.905496",
-    "activity_type": "review",
-    "description": "Add new feature idea fixing edge cases",
-    "energy_level": 67,
-    "focus_score": 75
-  },
-  {
     "timestamp": "2026-01-22T12:43:13.349557",
     "activity_type": "planning",
     "description": "Update documentation improving code quality",
@@ -698,5 +691,12 @@
     "description": "♻️ Refactor code improving code quality",
     "energy_level": 61,
     "focus_score": 77
+  },
+  {
+    "timestamp": "2026-02-16T16:39:35.813173",
+    "activity_type": "code",
+    "description": "Update documentation following best practices",
+    "energy_level": 77,
+    "focus_score": 80
   }
 ]
