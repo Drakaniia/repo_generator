@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-24T12:36:18.407377",
-    "activity_type": "planning",
-    "description": "Improve code structure based on user feedback",
-    "energy_level": 80,
-    "focus_score": 82
-  },
-  {
     "timestamp": "2026-01-24T16:21:50.675525",
     "activity_type": "planning",
     "description": "🔒 Security update enhancing performance",
@@ -698,5 +691,12 @@
     "description": "Improve SEO with latest standards",
     "energy_level": 74,
     "focus_score": 79
+  },
+  {
+    "timestamp": "2026-02-18T20:35:54.101756",
+    "activity_type": "review",
+    "description": "♻️ Refactor code with latest standards",
+    "energy_level": 93,
+    "focus_score": 99
   }
 ]
