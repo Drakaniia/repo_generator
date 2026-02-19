@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-25T12:37:40.811093",
-    "activity_type": "review",
-    "description": "Update configuration following best practices",
-    "energy_level": 87,
-    "focus_score": 92
-  },
-  {
     "timestamp": "2026-01-25T16:22:12.129510",
     "activity_type": "review",
     "description": "♻️ Refactor code for production readiness",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness based on user feedback",
     "energy_level": 61,
     "focus_score": 96
+  },
+  {
+    "timestamp": "2026-02-19T20:29:04.766895",
+    "activity_type": "code",
+    "description": "♻️ Refactor code for better user experience",
+    "energy_level": 68,
+    "focus_score": 84
   }
 ]
