@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-27T08:30:01.129212",
-    "activity_type": "review",
-    "description": "Update build scripts with latest standards",
-    "energy_level": 61,
-    "focus_score": 96
-  },
-  {
     "timestamp": "2026-01-27T12:43:34.785646",
     "activity_type": "planning",
     "description": "Improve targeting following best practices",
@@ -698,5 +691,12 @@
     "description": "Add analytics improving code quality",
     "energy_level": 83,
     "focus_score": 97
+  },
+  {
+    "timestamp": "2026-02-21T16:26:00.892465",
+    "activity_type": "review",
+    "description": "Update UI components following best practices",
+    "energy_level": 95,
+    "focus_score": 82
   }
 ]
