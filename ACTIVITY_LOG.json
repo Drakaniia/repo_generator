@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-27T20:20:30.344608",
-    "activity_type": "review",
-    "description": "Update configuration for better user experience",
-    "energy_level": 62,
-    "focus_score": 71
-  },
-  {
     "timestamp": "2026-01-28T08:28:53.719884",
     "activity_type": "code",
     "description": "Update UI components for better user experience",
@@ -698,5 +691,12 @@
     "description": "Fix CI build enhancing performance",
     "energy_level": 74,
     "focus_score": 97
+  },
+  {
+    "timestamp": "2026-02-22T12:43:10.738073",
+    "activity_type": "review",
+    "description": "Improve code structure to improve maintainability",
+    "energy_level": 83,
+    "focus_score": 88
   }
 ]
