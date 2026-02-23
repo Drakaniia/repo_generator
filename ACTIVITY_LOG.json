@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-28T16:33:51.607287",
-    "activity_type": "documentation",
-    "description": "Improve mobile responsiveness based on user feedback",
-    "energy_level": 88,
-    "focus_score": 88
-  },
-  {
     "timestamp": "2026-01-28T20:27:34.126471",
     "activity_type": "planning",
     "description": "Update UI components following best practices",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness improving code quality",
     "energy_level": 83,
     "focus_score": 87
+  },
+  {
+    "timestamp": "2026-02-23T08:46:53.898197",
+    "activity_type": "review",
+    "description": "Update UI components improving code quality",
+    "energy_level": 100,
+    "focus_score": 97
   }
 ]
