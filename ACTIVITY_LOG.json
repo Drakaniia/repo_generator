@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-01-29T20:27:02.327270",
-    "activity_type": "review",
-    "description": "♻️ Refactor code for better user experience",
-    "energy_level": 100,
-    "focus_score": 86
-  },
-  {
     "timestamp": "2026-01-30T08:35:16.226930",
     "activity_type": "review",
     "description": "🔒 Security update fixing edge cases",
@@ -698,5 +691,12 @@
     "description": "Improve code structure for better user experience",
     "energy_level": 63,
     "focus_score": 82
+  },
+  {
+    "timestamp": "2026-02-24T13:00:15.973627",
+    "activity_type": "documentation",
+    "description": "Improve code structure improving code quality",
+    "energy_level": 67,
+    "focus_score": 70
   }
 ]
