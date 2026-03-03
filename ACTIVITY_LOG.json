@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-06T12:54:06.738998",
-    "activity_type": "planning",
-    "description": "🔒 Security update for better user experience",
-    "energy_level": 62,
-    "focus_score": 81
-  },
-  {
     "timestamp": "2026-02-06T16:40:37.061899",
     "activity_type": "documentation",
     "description": "Add internationalization with latest standards",
@@ -698,5 +691,12 @@
     "description": "Add new feature idea following best practices",
     "energy_level": 67,
     "focus_score": 91
+  },
+  {
+    "timestamp": "2026-03-03T16:42:58.284278",
+    "activity_type": "code",
+    "description": "Fix CI build with latest standards",
+    "energy_level": 98,
+    "focus_score": 98
   }
 ]
