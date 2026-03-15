@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-18T20:35:54.101756",
-    "activity_type": "review",
-    "description": "♻️ Refactor code with latest standards",
-    "energy_level": 93,
-    "focus_score": 99
-  },
-  {
     "timestamp": "2026-02-19T08:40:02.899025",
     "activity_type": "code",
     "description": "🎉 Release new version optimizing workflow",
@@ -698,5 +691,12 @@
     "description": "🎉 Release new version fixing edge cases",
     "energy_level": 63,
     "focus_score": 79
+  },
+  {
+    "timestamp": "2026-03-15T20:25:47.640094",
+    "activity_type": "code",
+    "description": "Add tests following best practices",
+    "energy_level": 61,
+    "focus_score": 98
   }
 ]
