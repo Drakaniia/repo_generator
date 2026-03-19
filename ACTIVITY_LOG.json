@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-22T20:23:11.497466",
-    "activity_type": "planning",
-    "description": "Improve mobile responsiveness improving code quality",
-    "energy_level": 83,
-    "focus_score": 87
-  },
-  {
     "timestamp": "2026-02-23T08:46:53.898197",
     "activity_type": "review",
     "description": "Update UI components improving code quality",
@@ -698,5 +691,12 @@
     "description": "⚡ Performance optimization enhancing performance",
     "energy_level": 60,
     "focus_score": 70
+  },
+  {
+    "timestamp": "2026-03-19T20:34:24.052147",
+    "activity_type": "documentation",
+    "description": "⚡ Performance optimization optimizing workflow",
+    "energy_level": 69,
+    "focus_score": 75
   }
 ]
