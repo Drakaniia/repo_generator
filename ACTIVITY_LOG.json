@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-22T16:26:39.070536",
-    "activity_type": "review",
-    "description": "Add new feature idea fixing edge cases",
-    "energy_level": 78,
-    "focus_score": 94
-  },
-  {
     "timestamp": "2026-02-22T20:23:11.497466",
     "activity_type": "planning",
     "description": "Improve mobile responsiveness improving code quality",
@@ -698,5 +691,12 @@
     "description": "🎉 Release new version for better user experience",
     "energy_level": 80,
     "focus_score": 94
+  },
+  {
+    "timestamp": "2026-03-19T16:55:17.846341",
+    "activity_type": "review",
+    "description": "⚡ Performance optimization enhancing performance",
+    "energy_level": 60,
+    "focus_score": 70
   }
 ]
