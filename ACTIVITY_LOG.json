@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-23T16:53:55.169185",
-    "activity_type": "planning",
-    "description": "Improve targeting following best practices",
-    "energy_level": 62,
-    "focus_score": 80
-  },
-  {
     "timestamp": "2026-02-23T20:41:34.916909",
     "activity_type": "planning",
     "description": "⚡ Performance optimization based on user feedback",
@@ -697,6 +690,13 @@
     "activity_type": "documentation",
     "description": "Fix CI build fixing edge cases",
     "energy_level": 84,
+    "focus_score": 94
+  },
+  {
+    "timestamp": "2026-03-20T16:39:52.738066",
+    "activity_type": "documentation",
+    "description": "Update UI components improving code quality",
+    "energy_level": 93,
     "focus_score": 94
   }
 ]
