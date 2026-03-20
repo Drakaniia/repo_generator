@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-23T08:46:53.898197",
-    "activity_type": "review",
-    "description": "Update UI components improving code quality",
-    "energy_level": 100,
-    "focus_score": 97
-  },
-  {
     "timestamp": "2026-02-23T12:58:44.758479",
     "activity_type": "code",
     "description": "Add new feature idea enhancing performance",
@@ -698,5 +691,12 @@
     "description": "⚡ Performance optimization optimizing workflow",
     "energy_level": 69,
     "focus_score": 75
+  },
+  {
+    "timestamp": "2026-03-20T08:37:11.835505",
+    "activity_type": "code",
+    "description": "Improve code structure following best practices",
+    "energy_level": 93,
+    "focus_score": 74
   }
 ]
