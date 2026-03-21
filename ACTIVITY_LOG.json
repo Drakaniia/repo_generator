@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-24T17:03:24.388959",
-    "activity_type": "code",
-    "description": "Improve code structure following best practices",
-    "energy_level": 91,
-    "focus_score": 97
-  },
-  {
     "timestamp": "2026-02-24T20:31:57.326592",
     "activity_type": "planning",
     "description": "Improve code structure to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Update documentation based on user feedback",
     "energy_level": 83,
     "focus_score": 74
+  },
+  {
+    "timestamp": "2026-03-21T16:26:46.191535",
+    "activity_type": "documentation",
+    "description": "Update UI components enhancing performance",
+    "energy_level": 77,
+    "focus_score": 76
   }
 ]
