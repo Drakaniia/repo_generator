@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-27T08:37:27.010801",
-    "activity_type": "review",
-    "description": "Improve SEO with latest standards",
-    "energy_level": 90,
-    "focus_score": 73
-  },
-  {
     "timestamp": "2026-02-27T12:54:01.400641",
     "activity_type": "planning",
     "description": "Add tests enhancing performance",
@@ -698,5 +691,12 @@
     "description": "🎉 Release new version for production readiness",
     "energy_level": 97,
     "focus_score": 77
+  },
+  {
+    "timestamp": "2026-03-24T08:50:43.425901",
+    "activity_type": "documentation",
+    "description": "⚡ Performance optimization following best practices",
+    "energy_level": 76,
+    "focus_score": 87
   }
 ]
