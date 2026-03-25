@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-02-28T20:22:37.741235",
-    "activity_type": "code",
-    "description": "Add tests optimizing workflow",
-    "energy_level": 78,
-    "focus_score": 74
-  },
-  {
     "timestamp": "2026-03-01T08:27:49.151241",
     "activity_type": "code",
     "description": "Update build scripts enhancing performance",
@@ -698,5 +691,12 @@
     "description": "Update build scripts for production readiness",
     "energy_level": 70,
     "focus_score": 95
+  },
+  {
+    "timestamp": "2026-03-25T20:35:57.787906",
+    "activity_type": "review",
+    "description": "Update documentation fixing edge cases",
+    "energy_level": 99,
+    "focus_score": 71
   }
 ]
