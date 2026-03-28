@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-03T08:37:43.193463",
-    "activity_type": "code",
-    "description": "Update build scripts following best practices",
-    "energy_level": 92,
-    "focus_score": 97
-  },
-  {
     "timestamp": "2026-03-03T12:52:29.581989",
     "activity_type": "code",
     "description": "Add new feature idea following best practices",
@@ -697,6 +690,13 @@
     "activity_type": "documentation",
     "description": "Improve mobile responsiveness following best practices",
     "energy_level": 60,
+    "focus_score": 71
+  },
+  {
+    "timestamp": "2026-03-28T08:35:51.729465",
+    "activity_type": "documentation",
+    "description": "Improve SEO based on user feedback",
+    "energy_level": 61,
     "focus_score": 71
   }
 ]
