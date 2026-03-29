@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-04T12:51:50.484278",
-    "activity_type": "code",
-    "description": "Add new feature idea enhancing performance",
-    "energy_level": 73,
-    "focus_score": 71
-  },
-  {
     "timestamp": "2026-03-04T16:40:00.713450",
     "activity_type": "review",
     "description": "Update build scripts for better user experience",
@@ -698,5 +691,12 @@
     "description": "🔒 Security update fixing edge cases",
     "energy_level": 68,
     "focus_score": 83
+  },
+  {
+    "timestamp": "2026-03-29T12:51:12.053094",
+    "activity_type": "documentation",
+    "description": "Add internationalization fixing edge cases",
+    "energy_level": 62,
+    "focus_score": 98
   }
 ]
