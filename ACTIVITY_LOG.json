@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-05T18:01:06.294202",
-    "activity_type": "documentation",
-    "description": "Fix minor bug following best practices",
-    "energy_level": 96,
-    "focus_score": 71
-  },
-  {
     "timestamp": "2026-03-05T20:34:23.400192",
     "activity_type": "planning",
     "description": "🔒 Security update improving code quality",
@@ -698,5 +691,12 @@
     "description": "Update dependencies based on user feedback",
     "energy_level": 76,
     "focus_score": 84
+  },
+  {
+    "timestamp": "2026-03-30T16:53:28.710055",
+    "activity_type": "documentation",
+    "description": "♻️ Refactor code to improve maintainability",
+    "energy_level": 81,
+    "focus_score": 83
   }
 ]
