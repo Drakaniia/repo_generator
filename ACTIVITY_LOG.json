@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-05T08:37:46.408549",
-    "activity_type": "code",
-    "description": "Fix CI build enhancing performance",
-    "energy_level": 91,
-    "focus_score": 87
-  },
-  {
     "timestamp": "2026-03-05T12:55:11.953507",
     "activity_type": "review",
     "description": "🚀 Deploy new version for production readiness",
@@ -698,5 +691,12 @@
     "description": "Improve SEO for better user experience",
     "energy_level": 67,
     "focus_score": 81
+  },
+  {
+    "timestamp": "2026-03-30T09:08:36.778411",
+    "activity_type": "planning",
+    "description": "Add new feature idea enhancing performance",
+    "energy_level": 70,
+    "focus_score": 83
   }
 ]
