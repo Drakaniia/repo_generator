@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-07T20:22:07.908704",
-    "activity_type": "planning",
-    "description": "Fix CI build improving code quality",
-    "energy_level": 60,
-    "focus_score": 77
-  },
-  {
     "timestamp": "2026-03-08T08:28:24.292013",
     "activity_type": "documentation",
     "description": "🎉 Release new version for better user experience",
@@ -698,5 +691,12 @@
     "description": "Fix minor bug for production readiness",
     "energy_level": 70,
     "focus_score": 92
+  },
+  {
+    "timestamp": "2026-04-01T20:40:19.671602",
+    "activity_type": "review",
+    "description": "Add tests fixing edge cases",
+    "energy_level": 77,
+    "focus_score": 99
   }
 ]
