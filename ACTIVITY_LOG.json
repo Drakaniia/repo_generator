@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-14T20:24:52.765775",
-    "activity_type": "code",
-    "description": "Update configuration for better user experience",
-    "energy_level": 85,
-    "focus_score": 99
-  },
-  {
     "timestamp": "2026-03-15T08:33:22.307466",
     "activity_type": "planning",
     "description": "Update UI components to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Update UI components for better user experience",
     "energy_level": 93,
     "focus_score": 80
+  },
+  {
+    "timestamp": "2026-04-08T20:39:16.939976",
+    "activity_type": "planning",
+    "description": "Fix minor bug for production readiness",
+    "energy_level": 60,
+    "focus_score": 82
   }
 ]
