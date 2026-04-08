@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-14T12:45:07.669027",
-    "activity_type": "documentation",
-    "description": "Add tests enhancing performance",
-    "energy_level": 87,
-    "focus_score": 98
-  },
-  {
     "timestamp": "2026-03-14T16:27:46.585893",
     "activity_type": "code",
     "description": "Update build scripts enhancing performance",
@@ -698,5 +691,12 @@
     "description": "Add tests fixing edge cases",
     "energy_level": 86,
     "focus_score": 75
+  },
+  {
+    "timestamp": "2026-04-08T13:15:35.905175",
+    "activity_type": "documentation",
+    "description": "Fix minor bug to improve maintainability",
+    "energy_level": 75,
+    "focus_score": 72
   }
 ]
