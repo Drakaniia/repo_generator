@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-15T08:33:22.307466",
-    "activity_type": "planning",
-    "description": "Update UI components to improve maintainability",
-    "energy_level": 95,
-    "focus_score": 91
-  },
-  {
     "timestamp": "2026-03-15T12:47:17.440822",
     "activity_type": "planning",
     "description": "Update UI components to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Fix minor bug for production readiness",
     "energy_level": 60,
     "focus_score": 82
+  },
+  {
+    "timestamp": "2026-04-09T09:04:14.560482",
+    "activity_type": "review",
+    "description": "🎉 Release new version improving code quality",
+    "energy_level": 83,
+    "focus_score": 95
   }
 ]
