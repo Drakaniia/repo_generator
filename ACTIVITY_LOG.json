@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-16T20:35:52.391410",
-    "activity_type": "review",
-    "description": "Improve mobile responsiveness fixing edge cases",
-    "energy_level": 66,
-    "focus_score": 78
-  },
-  {
     "timestamp": "2026-03-17T08:51:23.304229",
     "activity_type": "planning",
     "description": "Fix minor bug for production readiness",
@@ -698,5 +691,12 @@
     "description": "Improve mobile responsiveness following best practices",
     "energy_level": 68,
     "focus_score": 100
+  },
+  {
+    "timestamp": "2026-04-10T20:33:10.616613",
+    "activity_type": "code",
+    "description": "Improve code structure to improve maintainability",
+    "energy_level": 96,
+    "focus_score": 90
   }
 ]
