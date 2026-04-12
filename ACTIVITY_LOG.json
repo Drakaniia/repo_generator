@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-18T16:56:43.490315",
-    "activity_type": "review",
-    "description": "Update dependencies based on user feedback",
-    "energy_level": 95,
-    "focus_score": 85
-  },
-  {
     "timestamp": "2026-03-18T20:33:23.008673",
     "activity_type": "planning",
     "description": "Update documentation for production readiness",
@@ -697,6 +690,13 @@
     "activity_type": "review",
     "description": "Add internationalization improving code quality",
     "energy_level": 78,
+    "focus_score": 93
+  },
+  {
+    "timestamp": "2026-04-12T16:35:35.883082",
+    "activity_type": "planning",
+    "description": "Add tests optimizing workflow",
+    "energy_level": 100,
     "focus_score": 93
   }
 ]
