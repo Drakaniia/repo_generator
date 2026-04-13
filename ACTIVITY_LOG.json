@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-19T12:59:27.324079",
-    "activity_type": "planning",
-    "description": "🎉 Release new version for better user experience",
-    "energy_level": 80,
-    "focus_score": 94
-  },
-  {
     "timestamp": "2026-03-19T16:55:17.846341",
     "activity_type": "review",
     "description": "⚡ Performance optimization enhancing performance",
@@ -697,6 +690,13 @@
     "activity_type": "planning",
     "description": "Update documentation to improve maintainability",
     "energy_level": 66,
+    "focus_score": 89
+  },
+  {
+    "timestamp": "2026-04-13T13:21:10.381001",
+    "activity_type": "documentation",
+    "description": "🚀 Deploy new version based on user feedback",
+    "energy_level": 94,
     "focus_score": 89
   }
 ]
