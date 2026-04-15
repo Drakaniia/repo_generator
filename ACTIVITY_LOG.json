@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-21T20:23:19.277084",
-    "activity_type": "planning",
-    "description": "Update UI components fixing edge cases",
-    "energy_level": 80,
-    "focus_score": 74
-  },
-  {
     "timestamp": "2026-03-22T08:31:27.701313",
     "activity_type": "review",
     "description": "♻️ Refactor code to improve maintainability",
@@ -698,5 +691,12 @@
     "description": "Improve targeting for better user experience",
     "energy_level": 81,
     "focus_score": 97
+  },
+  {
+    "timestamp": "2026-04-15T20:42:59.297248",
+    "activity_type": "review",
+    "description": "Update documentation optimizing workflow",
+    "energy_level": 74,
+    "focus_score": 82
   }
 ]
