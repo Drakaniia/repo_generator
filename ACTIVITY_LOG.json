@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-27T20:35:36.197623",
-    "activity_type": "documentation",
-    "description": "Improve mobile responsiveness following best practices",
-    "energy_level": 60,
-    "focus_score": 71
-  },
-  {
     "timestamp": "2026-03-28T08:35:51.729465",
     "activity_type": "documentation",
     "description": "Improve SEO based on user feedback",
@@ -698,5 +691,12 @@
     "description": "🔒 Security update to improve maintainability",
     "energy_level": 89,
     "focus_score": 91
+  },
+  {
+    "timestamp": "2026-04-21T20:49:54.652828",
+    "activity_type": "documentation",
+    "description": "⚡ Performance optimization improving code quality",
+    "energy_level": 70,
+    "focus_score": 81
   }
 ]
