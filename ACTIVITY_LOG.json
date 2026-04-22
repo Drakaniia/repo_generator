@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-03-28T12:50:41.738212",
-    "activity_type": "documentation",
-    "description": "Add internationalization optimizing workflow",
-    "energy_level": 88,
-    "focus_score": 82
-  },
-  {
     "timestamp": "2026-03-28T16:30:52.372267",
     "activity_type": "planning",
     "description": "🚀 Deploy new version with latest standards",
@@ -698,5 +691,12 @@
     "description": "Fix minor bug following best practices",
     "energy_level": 76,
     "focus_score": 85
+  },
+  {
+    "timestamp": "2026-04-22T13:21:39.726256",
+    "activity_type": "review",
+    "description": "Add internationalization enhancing performance",
+    "energy_level": 99,
+    "focus_score": 92
   }
 ]
