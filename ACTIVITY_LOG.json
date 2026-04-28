@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-04-03T12:59:00.579920",
-    "activity_type": "review",
-    "description": "♻️ Refactor code following best practices",
-    "energy_level": 78,
-    "focus_score": 94
-  },
-  {
     "timestamp": "2026-04-03T16:37:26.207008",
     "activity_type": "review",
     "description": "Update configuration fixing edge cases",
@@ -698,5 +691,12 @@
     "description": "Add analytics optimizing workflow",
     "energy_level": 97,
     "focus_score": 83
+  },
+  {
+    "timestamp": "2026-04-28T13:59:01.829918",
+    "activity_type": "documentation",
+    "description": "Improve mobile responsiveness for better user experience",
+    "energy_level": 81,
+    "focus_score": 72
   }
 ]
