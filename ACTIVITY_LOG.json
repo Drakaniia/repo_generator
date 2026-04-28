@@ -1,12 +1,5 @@
 [
   {
-    "timestamp": "2026-04-03T08:51:14.296238",
-    "activity_type": "planning",
-    "description": "♻️ Refactor code based on user feedback",
-    "energy_level": 88,
-    "focus_score": 96
-  },
-  {
     "timestamp": "2026-04-03T12:59:00.579920",
     "activity_type": "review",
     "description": "♻️ Refactor code following best practices",
@@ -698,5 +691,12 @@
     "description": "Update documentation with latest standards",
     "energy_level": 96,
     "focus_score": 88
+  },
+  {
+    "timestamp": "2026-04-28T10:10:32.351078",
+    "activity_type": "review",
+    "description": "Add analytics optimizing workflow",
+    "energy_level": 97,
+    "focus_score": 83
   }
 ]
